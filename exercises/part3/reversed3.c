@@ -2,7 +2,7 @@
 
 int main(void){
     int number;
-    printf("Enter a three-digit number: \n");
+    printf("Enter a two-digit number: \n");
     scanf("%d" ,&number);
 
     int last_digit = number %10;
